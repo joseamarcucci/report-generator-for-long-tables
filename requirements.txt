@@ -1,0 +1,4 @@
+streamlit>=0.81.1
+pdfkit==0.6.1
+
+
