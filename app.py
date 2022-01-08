@@ -109,6 +109,7 @@ def generate_report():
     }
 
     st.markdown("Report generator")
+    st.markdown("[git repo:](https://github.com/lcalmbach/report-generator-for-long-tables/)", unsafe_allow_html=True)
     st.write(report['data'].head())
     if st.button("Generate report"):
         with st.spinner('Creating report, this may take a while'):
